@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Undangan Bukber</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:ital,wght@0,100;0,300;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- siply countdown -->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <script src="countdown/simplyCountdown.min.js"></script>
+
+    <!--bosstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../assets/vendor/aos/dist/aos.css">
+  </head>
+  <body>
+    <section
+      id="hero"
+      class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-black"
+    >
+      <main>
+        <h4>Undangan kepada Keluarga</h4>
+        <h1>Digdoyo Solo</h1>
+        <p>Akan melangsungkan Buka Bersama  dalam :</p>
+        <div class="simply-countdown"></div>
+        <a href="#undangan" class="btn btn-lg mt-4"onClick="enableScroll()">lihat undangan</a>
+      </main>
+    </section>
+    <nav class="navbar navbar-expand-md bg-transparent fixed-top sticky-top mynavbar">
+      <div class="container" >
+        <a class="navbar-brand" href="#">Digdoyo Solo</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+          
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">fardanio</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Penanggung Jawab</a>
+              <a class="nav-link" href="#info">Pricing</a>
+              <a class="nav-link" href="#story">story</a>
+              <a class="nav-link" href="#gallery">gallery</a>
+              <a class="nav-link" href="#rsvp">rsvp</a>
+              <a class="nav-link" href="#gifts">Kontak</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="container-fluid">
+        <div class="row justify-content-center color-red">
+          
+            <button id="tUbahWarna" type="hidden" style="display: none;"></button>
+
+	<br></br>  
+           
+            <h1>Acara Buka Bersama</h1>
+            <h2>Diselenggarakan pada 30 maret 2024 diKijing, solo</h2>
+            <p>
+              oleh karena itu, dengan segala hormat, kami bermaksud mengundang saudara/i untuk hadir dalam acara Buka Bersama Ini
+            </p>
+        </div>
+
+        <div class="row couple">
+          <div class="col-lg-6">
+            <div class="row">
+              
+              <div class="col-8 text-end">
+                <h3> Mirza Fachrehan </h3>
+                <p>
+                  Selaku Ketua Penanggung Jawab Buka Bersama Digdoyo Solo kali ini 
+                </p>
+                <p>
+                ketua 1<br />
+                  <br />
+                  Kuliah
+                </p>
+              </div>
+              <div class="col-4">
+                <img src="img/Cuplikan layar 2024-03-15 084410.png" class="img-responsive rounded-circle h-70 w-70">
+              </div>
+              
+              </div>
+            </div>
+
+            
+            <span class="heart"><i class="bi bi-heart-fill"></i></span>
+            
+        
+            <div class="col lg 6">
+              <div class="row">
+                <div class="col-4">
+                  <img src="img/Cuplikan layar 2024-03-15 084103.png" class="img-responsive rounded-circle h-80 w-80">
+                </div>
+               
+                <div class="col-8 text-end">
+                  <h3> Andita Aureliya </h3>
+                  <p>
+                   Selaku Wakil ketua penyelenggara Kegiatan Buka bersama Digdoyo solo
+                  </p>
+                  <p>
+                   wakil ketua 1 <br />
+                    <br />
+                  kuliah UIN
+                  </p>
+                </div>
+                
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="gambar">
+      
+    </div>
+    <section id="info" class="info">
+      <div class="container">
+       <div class="row justify-content-center">
+        <div class="col-md-8.col-10 text-center">
+          <h2>informasi Acara</h2>
+          <p class="alamat">Tempat: KONCO SPACE cabang colomadu . <br>Blukukan Dua, Blulukan, Kec. Colomadu, Kabupaten Karanganyar, Jawa Tengah</p>
+          <a href="https://maps.google.com/?q=-7.536889,110.766121"target="_blank" class="btn btn-light btn-sm my-4">klik untuk membuka</a>
+          <p class="description">diharapkan untuk tidak salah tempat dan alamat 
+            kunjungan kedalam Buka bersama kami dikarenakan tempat yang kami sediakan 
+            tidaklah banyak dan hanya terbatas.
+          </p>
+        </div>
+       </div> 
+       <div class="row justify-content-center mt-4">
+        <div class="col-md-5 col-10" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <div class="card text-center text-bg-light mb-4">
+            <div class="card-header">
+              Time and dress
+            </div>
+            <div class="card-body ">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <i class="bi bi-person-standing-dress  d-block"></i>
+                  <span>kerudung hitam (pr)</span><br>
+                  <span>Celana Hitam (lk)</span>
+                </div>
+                <div class="col-md-6">
+                  <i class="bi bi-calendar3-week d-block"></i>
+                  <span>sabtu, 30 Maret 2024</span>
+                </div>
+              </div>
+              
+            </div>
+            <div class="card-footer ">
+            acara ini untuk saling ngobrol bukan saling tatap muka 
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 col-10">
+          <div class="card text-center text-bg-light">
+            <div class="card-header">
+              resepsi
+            </div>
+            <div class="card-body ">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <i class="bi bi-clock-fill d-block"></i>
+                  <span>16.00 - selesai</span>
+                </div>
+                <div class="col-md-6">
+                  <i class="bi bi-cash  d-block"></i>
+                  <span>5000k + </span><br>
+                  <span>Paket menu yang dipilih</span>
+                </div>
+              </div>
+              
+            </div>
+            <div class="card-footer ">
+              acara ini untuk saling ngobrol bukan saling tatap muka 
+            </div>
+          </div>
+        </div>
+       </div>
+      </div>
+    </section>
+
+    <section id="info" class="info">
+
+    </section>
+    <section id="story" class="story">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Bagaimana Persahabatan Digdoyo Solo dimulai</span>
+            <h2> Our Story</h2>
+            <p>berikut merupakan kisah kita yang telah kami lalui dari masa kemasa maka peristiwa itu 
+              dilaksanakan sekarang lain daripada itu adanya buka bersama ini adalah untuk Mempersatukan Ukhwah islamiyah kita sampai akhir nantinya </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image" style="background-image: url(img/gambar\ \(1\).jpg.jpg)";></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Ketua 1</h3>
+                    <span>Kuliah UIN</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Memulainya dengan penuh semangat </p>
+                  </div>
+                  
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/gambar\ \(2\).jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Ketua 2</h3>
+                    <span>Kuliah</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>disinilah kami memulai hidup baru yang akan membicarakan kebersamaan </p>
+                  </div>
+                  
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image" style="background-image: url(img/gambar\ \(3\).jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>ketua 3</h3>
+                    <span>kuliah</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>peda meeting ketiga ini kami menyediakan beberapa rencana yang mana ingin memiliki anak laki laki serta perempuan
+                      adapun memori gambar yagn ada sebagai berikut 
+                    </p>
+                  </div>
+                  
+                </div>
+              </li>
+              <li>
+                <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/gambar\ \(4\).jpg)";></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>sekertaris</h3>
+                    <span>Kuliah</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>man jadda wajada </p>
+                  </div>
+                  
+                </div>
+              </li>
+              </li>
+              <li>
+                <div class="timeline-image" style="background-image: url(img/gambar\ \(5\).jpg)";></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>sekertaris 2</h3>
+                    <span>Kuliah </span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>man sarro ala darbi wasola </p>
+                  </div>
+                  
+                </div>
+              </li>
+              <li>
+                <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/gambar\ \(6\).jpg)";></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>sekertaris 3</h3>
+                    <span>Kuliah </span>
+                  </div>
+                  <div class="timeline-body">
+                    <p> gapailah mimpi mu setinggi langit</p>
+                  </div>
+                  
+                </div>
+                </li>
+              </li>
+              <li>
+                <div class="timeline-image" style="background-image: url(img/gambar\ \(7\).jpg)";></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>bendahara</h3>
+                    <span>Kuliah </span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>jangan lupa untuk terus bersujud kepada allah </p>
+                  </div>
+                  
+                </div>
+              </li>
+              <li>
+                <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/gambar\ \(8\).jpg)";></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>bendahara 2</h3>
+                    <span>Kuliah </span>
+                  </div>
+                  <div class="timeline-body">
+                    <p> hidup cuman sekali hiduplah saling menghargai </p>
+                  </div>
+                  
+                </div>
+                </li>
+              </li>
+              <li>
+                <div class="timeline-image" style="background-image: url(img/gambar\ \(9\).jpg)";></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>bendahara 3</h3>
+                    <span>Kuliah </span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>jangan pernah takut untuk gagal </p>
+                  </div>
+                  
+                </div>
+              </li>
+              <li>
+                <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/gambar\ \(10\).jpg)";></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Humas</h3>
+                    <span>Kuliah </span>
+                  </div>
+                  <div class="timeline-body">
+                    <p> jangan hidup seperti benalu yang terus bergantung kepada orang lain </p>
+                  </div>
+                  
+                </div>
+                </li>
+              </li>
+              <li>
+                <div class="timeline-image" style="background-image: url(img/gambar\ \(11\).jpg)";></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>humas 2</h3>
+                    <span>Kuliah </span>
+                  </div>
+                  <div class="timeline-body">
+                    <p> bahagiakanlah  dirimu sendiri sebelum membahagiakan orang lain</p>
+                  </div>
+                  
+                </div>
+              </li>
+              <li>
+                <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/gambar\ \(12\).jpg)";></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>perlengkapan</h3>
+                    <span>Kuliah </span>
+                  </div>
+                  <div class="timeline-body">
+                    <p> dengarkanlah suara hatimu sebelum mengedepankan nafsu</p>
+                  </div>
+                  
+                </div>
+                </li>
+              </li>
+              <li>
+                <div class="timeline-image" style="background-image: url(img/gambar\ \(13\).jpg)";></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>perlengkapan 2</h3>
+                    <span>Kuliah </span>
+                  </div>
+                  <div class="timeline-body">
+                    <p> jangan pernah memandang remeh orang lain </p>
+                  </div>
+                  
+                </div>
+              </li>
+              <li>
+                <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/gambar\ \(14\).jpg)";></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>perlengkapan 3</h3>
+                    <span>Kuliah </span>
+                  </div>
+                  <div class="timeline-body">
+                    <p> Tetap ilmu padi walaupun ilmu mu sudah setinggi langit </p>
+                  </div>
+                  
+                </div>
+                </li>
+              </li>
+              <li>
+                <div class="timeline-image" style="background-image: url(img/gambar\ \(15\).jpg)";></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Perlengkapan 4</h3>
+                    <span>Kuliah </span>
+                  </div>
+                  <div class="timeline-body">
+                    <p> Jangan pernah menyesali apa yang telah kamu usahakan  </p>
+                  </div>
+                  
+                </div>
+              </li>
+              <li>
+                <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/gambar\ \(16\).jpg)";></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Konsumtor </h3>
+                    <span>Kuliah </span>
+                  </div>
+                  <div class="timeline-body">
+                    <p> Buatlah dirimu bermanfaat untuk orang lain </p>
+                  </div>
+                  
+                </div>
+                </li>
+              </li>
+              <li>
+                <div class="timeline-image" style="background-image: url(img/gambar\ \(17\).jpg)";></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Konsumtor 2</h3>
+                    <span>Kuliah </span>
+                  </div>
+                  <div class="timeline-body">
+                    <p> Tidak usah terlalu serius dengan dunia karena dunia hanya sementara</p>
+                  </div>
+                  
+                </div>
+              </li>
+              <li>
+                <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/gambar\ \(18\).jpg)";></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Konsumtor 3</h3>
+                    <span>Kuliah </span>
+                  </div>
+                  <div class="timeline-body">
+                    <p> Ambil evaluasi orang sebelummu dan jadikan itu pelajaran bagimu</p>
+                  </div>
+                  
+                </div>
+                </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section id="gallery" class="gallery"> 
+      <div class="container ">
+        <div class="row justify-content-center">
+        <div class="col-md-8 col-10 text-center">
+          <span> memori kisah kami</span>
+          <h2> galeri foto</h2>
+          <p> berikut ini merupakan kenangan kami bersama mulai dari galeri yang ada sebelum kami bertemu sampai dengan 
+            sekarang ini, silahkan bisa dilihat lihat galeri-galeri kami </p>
+        </div>
+      </div>
+      </div>
+        <div class="row row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center ">
+          <div class="col mt-3  ">
+            <a href="img/motor.png" data-toggle="lightbox" data-caption="memilih motor dan mobil"data-gallery="mygallery">
+              <img src="img/lk.png"alt="farhat"class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3  ">
+            <a href="img/ikpm1.jpg" data-toggle="lightbox" data-caption="pemberian izin oleh ortu untuk pergi ke turki"data-gallery="mygallery">
+              <img src="img/ikpm1.jpg"alt="farhat"class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3  ">
+            <a href="img/ikpm2.jpg" data-toggle="lightbox" data-caption="pertama kali kami membeli rumah "data-gallery="mygallery">
+              <img src="img/ikpm2.jpg"alt="farhat"class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3  ">
+            <a href="img/ikpm3.jpg" data-toggle="lightbox" data-caption="bulan madu ke turki "data-gallery="mygallery">
+              <img src="img/ikpm3.jpg"alt="farhat"class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3  ">
+            <a href="img/ikpm4.jpg" data-toggle="lightbox" data-caption="kami memiliki memori dari jalan jalan ke bandung"data-gallery="mygallery">
+              <img src="img/ikpm4.jpg"alt="farhat"class="img-fluid w-100 rounded">
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <section id="rsvp" class="rsvp">
+    <div class="container ">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-10 text-center">
+          <h2> konfirmasi kehadiran</h2>
+          <p>isi form dibawah ini untuk melakukan konfirmasi kehadiran </p>
+        </div>
+      </div>
+      <form class="row row-cols-md-auto g-3 align-items-center justify-content-center"
+        method="POST"
+        action="https://script.google.com/macros/s/AKfycbzMRJ4OA5o3qHOzKbXkBbej3T1dQXRHBAiznmfgDQRM-rtzM0tNDZ7s7RA1oYzzPpuiog/exec" id="my-form">
+        <div class="col-12">
+          <div class="mb-3">
+            <label for="nama" class="form-label">nama</label>
+            <input type="text" class="form-control" id="nama" name="nama" >
+          </div>  
+        </div>
+        <div class="col-12">
+          <div class="mb-3">
+            <label for="jumlah" class="form-label">jumlah</label>
+            <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5" length="1" value="1">
+          </div>  
+        </div>
+        <div class="col-12">
+          <div class="mb-3">
+            <label for="status" class="form-label">status</label>
+            <select type="status " class="form-select" id="status" name="status" min="1" max="5" length="1" value="1">
+              <option selected>pilih salah satu</option>
+              <option value="Hadir">hadir</option>
+              <option value="Tidak hadir">tidak hadir</option>
+            </select>
+          </div>  
+        </div>
+        <div class="col-12 "style="margin-top: 35px;">
+          <button class="btn btn-primary">kirim</button>
+        </div>
+      </form> 
+    </div>
+    </section>
+    <section id="gifts" class="gifts" >
+      <div class="container " >
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2> contact person</h2>
+            <p> yang ingin menghubungi ataupun ada kendala yang ingin ditanyakan  </p>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="col-md-6">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <div class=" fw-bold">Perempuan</div>
+                  +6282133462004- Dewi Mufidah
+                </li>
+                <li class="list-group-item">
+                  <div class=" fw-bold"> Cowok </div>
+                  +6282138379804 - RaihanSyah
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center" style="margin-bottom: 20px;">
+            <small class="block">&copy; 2023 Buka Bersama.all right Digdoyo solo</small>
+            <small class="block">design by <a href="https://www.instagram.com/?hl=id">@mohamad farhat</a>.</small>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+    <script>
+      simplyCountdown(".simply-countdown", {
+        year: 2024, // required
+        month: 3, // required
+        day: 30, // required
+        hours: 17, // Default is 0 [0-23] integer
+        minutes: 0, // Default is 0 [0-59] integer
+        seconds: 0, // Default is 0 [0-59] integer
+        words: {
+          //words displayed into the countdown
+          days: { singular: "hari", plural: "hari" },
+          hours: { singular: "jam", plural: "jam" },
+          minutes: { singular: "menit", plural: "menit " },
+          seconds: { singular: "detik", plural: "detik" },
+        },
+      });
+    </script>
+    <script>
+      const hamburger = document.querySelector('.navbar-toggler');
+      const stickyTop = document.querySelector('.sticky-top');
+
+      hamburger.addEventListener('click', function(){
+        stickyTop.style.overflow = 'visible';
+      
+      });
+      const btnClose = document.querySelector('.btn-close');
+      btnClose.addEventListener('click',function(){
+        stickyTop.style.overflow = 'hidden';
+      });
+
+
+    </script>
+    <script>
+      function disableScroll(){
+        const rootElement = document.querySelector(":root");
+        
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const scrollLeft = window.pageXOffset || document.documentElement.scrolLeft;
+
+        window.onscroll = function(){
+          window.scrollTo(scrollTop, scrollLeft);
+        }
+       
+        rootElement.style.scrollBehavior = 'auto';
+      }
+      function enableScroll(){
+        window.onscroll = function(){
+          rootElement.style.scrollBehavior = 'smooth';
+          localStorage.setItem('opened' ,'true')
+
+        }
+      }
+      if(!localStorage.getItem('opened')){
+        disableScroll();
+
+      }
+     
+    </script>
+    <script>
+      window.addEventListener("load", function() {
+  const form = document.getElementById('my-form');
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    })
+    .then(() => {
+      alert("konfirmasi kehadiran telah disetujui");
+    })
+  });
+});
+
+    </script>
+    <script src="../../assets/vendor/aos/dist/aos.js"></script>
+    <script>
+      $(document).on('ready', function () {
+        // initialization of aos
+        AOS.init({
+          duration: 650,
+          once: true
+        });
+      });
+    </script>
+  </body>
+</html>
